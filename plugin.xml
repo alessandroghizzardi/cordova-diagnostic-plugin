@@ -5,8 +5,8 @@
     version="6.0.3">
 
     <name>Diagnostic</name>
-    <description>Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.</description>
-    <author>Dave Alden</author>
+    <description>SFTC - Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.</description>
+    <author>Softec S.p.a. - Source by Dave Alden</author>
     <license>MIT</license>
     <keywords>ecosystem:cordova,cordova,phonegap,android,ios,windows,diagnostic,wifi,location,gps,camera,bluetooth,settings</keywords>
     <engines>
@@ -14,8 +14,8 @@
         <engine name="cordova-android" version=">=8.0.0"/>
         <engine name="cordova-ios" version=">=5.0.0"/>
     </engines>
-    <repo>https://github.com/dpa99c/cordova-diagnostic-plugin.git</repo>
-    <issue>https://github.com/dpa99c/cordova-diagnostic-plugin/issues</issue>
+    <repo>https://github.com/alessandroghizzardi/cordova-diagnostic-plugin.git</repo>
+    <issue>https://github.com/alessandroghizzardi/cordova-diagnostic-plugin/issues</issue>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
@@ -277,7 +277,7 @@
 
         <preference name="ANDROIDX_VERSION" default="1.+" />
         <framework src="androidx.legacy:legacy-support-v4:$ANDROIDX_VERSION" />
-        <framework src="androidx.appcompat:appcompat:$ANDROIDX_VERSION" />
+        <framework src="androidx.appcompat:appcompat:$androidxAppCompatVersion" />
 
         <!--BEGIN_MODULE LOCATION-->
         <config-file target="config.xml" parent="/*">

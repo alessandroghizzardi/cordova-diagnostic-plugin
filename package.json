@@ -2,14 +2,14 @@
     "version": "6.0.3",
     "name": "cordova.plugins.diagnostic",
     "cordova_name": "Diagnostic",
-    "description": "Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.",
-    "author": "Dave Alden",
+    "description": "SFTC - Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.",
+    "author": "Softec S.p.a. - Source by Dave Alden",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dpa99c/cordova-diagnostic-plugin.git"
+        "url": "https://github.com/alessandroghizzardi/cordova-diagnostic-plugin.git"
     },
-    "issue": "https://github.com/dpa99c/cordova-diagnostic-plugin/issues",
+    "issue": "https://github.com/alessandroghizzardi/cordova-diagnostic-plugin/issues",
     "cordova": {
         "id": "cordova.plugins.diagnostic",
         "platforms": [
